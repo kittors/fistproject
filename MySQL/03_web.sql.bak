@@ -1,0 +1,7 @@
+#注释的代码是不执行的，注释可以解释代码是什么意思
+#删除数据库
+drop database web if exists web;
+#创建数据库
+create database web;
+#显示所有的数据
+show databases;

@@ -1,0 +1,4 @@
+#丢弃数据库tedu，如果存在；
+DROP DATABASE IF EXISTS tedu;
+#创建新的数据库tedu；
+CREATE DATABASE tedu;
