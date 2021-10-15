@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* .a {
+      width: 100px;
+      height: 100px;
+      background: url();
+      background-repeat: no-repeat;
+
+    } */
+
+    /* .box {
+      background: url(./img/全屏背景.jpg) center fixed;
+      background-size: cover;
+    } */
+    .b {
+      width: 500px;
+      height: 400px;
+      background-color: aqua;
+      background-image: url(./img/背景图定位.png);
+      background-repeat: no-repeat;
+      /* 图片定位 */
+      background-position: 10px 20px;
+
+    }
+
+    .e input {
+      width: 150px;
+      height: 30px;
+      background-image: url(./img/4d36a66062cee2c8cf8b89aa1b2e61c.png);
+      background-repeat: no-repeat;
+      background-position-x: 5px;
+    }
+
+    .f {
+      width: 32px;
+      height: 32px;
+      background-image: url(./img/sprite@2x.png);
+      background-position: -32px 0;
+    }
+
+
+    /* 鼠标移入小图标换成红色背景的那个图标（元素的伪类） */
+    .f:hover {
+      background-position: 0 0;
+    }
+
+    /* 精灵图68*56这张图找到鲸鱼那个小图标只显示这个小图标（因为第一行和第一列的首相都为0的位置，所以从0开始数14行15列是鲸鱼） */
+    .g {
+      width: 68px;
+      height: 56px;
+      background-image: url(./img/精灵图68x56.png);
+      background-position: -2184px -784px;
+
+    }
+
+    .h {
+      width: 16px;
+      height: 16px;
+      background-image: url(./img/sprite@2x.png);
+      background-size: 32px;
+      background-position: -16px 0;
+
+    }
+
+    .h:hover {
+      background-position: 0px 0px;
+    }
+
+    .i {
+      width: 600px;
+      height: 900px;
+      background-color: rgb(0, 255, 110);
+      /* background-image: url(./img/背景图定位.png); */
+      /* background-repeat: no-repeat;
+      background-size: 100% auto; */
+      background: url(./img/背景图尺寸.jpg) no-repeat;
+      background-size: contain;
+
+
+    }
+  </style>
+</head>
+
+<body class="box">
+
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="e">
+    <input type="text">
+  </div>
+  <div class="f"></div>
+  <div class="g"></div>
+  <div class="h"></div>
+  <div class="i"></div>
+</body>
+
+</html>

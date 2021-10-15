@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+    }
+
+    .a {
+      background-color: red;
+      /* 完全消失 */
+      display: none;
+      /* 显示回来 */
+      display: block;
+    }
+
+    .b {
+      background-color: blue;
+      /* 隐藏 */
+      visibility: hidden;
+      /* 显示回来(默认不隐藏)*/
+      visibility: visible;
+    }
+
+    .c {
+      background-color: green;
+      /*元素完全透明 值0*/
+      opacity: 1;
+      text-align: center;
+    }
+
+    .a:hover {
+      display: none;
+    }
+
+    .d {
+      background-color: hotpink;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c">wangmeimei</div>
+  <div class="d">chongge</div>
+</body>
+
+</html>

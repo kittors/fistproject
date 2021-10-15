@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .a {
+      width: 200px;
+      height: 100px;
+      background-color: yellow;
+      /* 允许溢出展示*/
+      overflow: visible;
+      /* 溢出隐藏*/
+      overflow: hidden;
+      /* 溢出元素双方向出现拖拽条*/
+      overflow: scroll;
+      /* 只有溢出方向才有拖拽条*/
+      overflow: auto;
+      /* 单方向设置溢出属性 */
+      overflow-x: auto;
+      /* 也可以单方向加hidden */
+      overflow-y: auto;
+
+    }
+
+    .b {
+      width: 200px;
+      height: 120px;
+      background-color: red;
+
+    }
+
+    .b img {
+      width: 100px;
+
+    }
+
+    .b div {
+      width: 200%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="a">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptates nam accusantium tenetur vitae, dicta
+    accusamus, possimus eius sed, voluptas porro itaque rem ad velit nulla est sunt illum at?
+    <div></div>
+  </div>
+  <div class="b">
+    <div>
+      <img src="./img/overflow/overflow1.jpg" alt="">
+    </div>
+  </div>
+
+</body>
+
+</html>
